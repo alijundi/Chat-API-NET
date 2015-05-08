@@ -24,10 +24,10 @@ namespace WhatsTest
             var tmpEncoding = Encoding.UTF8;
             System.Console.OutputEncoding = Encoding.Default;
             System.Console.InputEncoding = Encoding.Default;
-            string nickname = "Test";
-			string sender = "14134744871"; // Mobile number with country code (but without + or 00)
-			string password = "Zk1H6lNKwxdMbP1N18MH9aDlFvw=";//v2 password
-            string target = "34696649652";// Mobile number to send the message to
+            string nickname = "";
+			string sender = ""; // Mobile number with country code (but without + or 00)
+			string password = "";//v2 password
+            string target = "";// Mobile number to send the message to
 
             WhatsApp wa = new WhatsApp(sender, password, nickname, true);
 
