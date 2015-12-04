@@ -1,3 +1,5 @@
+This is a fork of Chat-API-NET that I have modified according to my needs. I will try to sync with this repo every once in a while.
+
 Chat API .NET
 ===========
 
